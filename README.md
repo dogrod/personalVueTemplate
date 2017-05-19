@@ -12,7 +12,7 @@
 ## TO-DO
 
 - [ ] EsLint Rules Optimization ( Globally )
-- [ x ] Flow Support ( Globally )
+- [x] Flow Support ( Globally )
 - [ ] Separate Stylus Support from master branch ( To feature branch )
 - [ ] Jade / Pug Support ( With feature branch )
 
