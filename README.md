@@ -4,7 +4,7 @@
 ## Use flow to check type for .vue file
 
 1. Comment out your Template / Style part surround with ``` /* */ ```
-2. Comment out your Script open/close Tag line with ``` // ```
+2. Comment out your Script open / close Tag line with ``` // ```
 3. Use flow Syntax to declare variable type
 4. Run ``` npm run flow ``` command to check type
 5. You'll see ``` Found 0 errors ``` ( Impossible!!! LOL )
@@ -12,7 +12,7 @@
 ## TO-DO
 
 - [ ] EsLint Rules Optimization ( Globally )
-- [ x ] Flow Support ( Globally )
+- [x] Flow Support ( Globally )
 - [ ] Separate Stylus Support from master branch ( To feature branch )
 - [ ] Jade / Pug Support ( With feature branch )
 
@@ -41,6 +41,6 @@ npm run e2e
 npm test
 ```
 ---
-## This template is created by Vue-cli
+> This template is created by Vue-cli
 
 > For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
