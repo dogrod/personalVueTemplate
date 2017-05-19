@@ -3,11 +3,10 @@
 
 ## Use flow to check type for .vue file
 
-1. Comment out your Template / Style part surround with ``` /* */ ```
-2. Comment out your Script open / close Tag line with ``` // ```
-3. Use flow Syntax to declare variable type
-4. Run ``` npm run flow ``` command to check type
-5. You'll see ``` Found 0 errors ``` ( Impossible!!! LOL )
+1. Call flow at the start of your script part such as ``` /* @flow */ ``` or ``` // @flow ```
+2. Use flow Syntax to declare variable type
+3. Run ``` npm run flow ``` command to check type
+4. You'll see ``` Found 0 errors ``` ( Impossible!!! LOL )
 
 ## TO-DO
 

@@ -1,4 +1,3 @@
-/* @flow
 <template>
   <div class="hello">
     <img src="../../assets/images/logo.png">
@@ -22,9 +21,10 @@
     </ul>
   </div>
 </template>
-*/
 
-// <script>
+<script>
+/* @flow */
+
 export default {
   name: 'hello',
   data() {
@@ -48,29 +48,25 @@ export default {
     }
   }
 }
-// </script>
+</script>
 
-/*
-<style lang="stylus" scoped>
+<style lang="stylus">
 // Add scoped attribute to limit CSS to this component only
-$color = #a3a4a5;
-h1, h2 {
-  font-weight: normal;
-  color: $color;
-}
+$color = #a3a4a5
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+h1, h2
+  font-weight normal
+  color $color
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+ul
+  list-style-type none
+  padding 0
 
-a {
-  color: #42b983;
-}
+li
+  display inline-block
+  margin 0 10px
+
+a
+  color #42b983
+
 </style>
-*/
