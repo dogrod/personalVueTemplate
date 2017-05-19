@@ -3,7 +3,7 @@
   <div class="hello">
     <img src="../../assets/images/logo.png">
     <h1>{{ message }}</h1>
-    <h1>{{ computed(message) }}</h1>
+    <h1>{{ concatString(message) }}</h1>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -43,7 +43,7 @@ export default {
     * @param {String} value 输入的参数
     * @return {String} 返回的值
     */
-    computed(value: String) {
+    concatString(value: String) {
       return (`${value.toString()}哈哈哈`)
     }
   }
