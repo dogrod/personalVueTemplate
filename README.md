@@ -3,9 +3,10 @@
 
 ## TO-DO
 
-- [ ] EsLint Rules Optimization Globally
-- [ ] Stylus Support ( with branch )
-- [ ] Jade / Pug Support ( with branch )
+- [ ] EsLint Rules Optimization ( Globally )
+- [ ] Flow Support ( Globally )
+- [ ] Stylus Support ( With feature branch )
+- [ ] Jade / Pug Support ( With feature branch )
 
 ## Build Setup
 
@@ -33,4 +34,5 @@ npm test
 ```
 
 > This template is created by Vue-cli
+
 > For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
