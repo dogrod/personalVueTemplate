@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/hello/hello'
+import App from '@/app'
 
 Vue.use(Router)
 
@@ -8,8 +8,16 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      component: App,
+      children: [{
+        path: '',
+        name: 'Hello',
+        component: r => require.ensure([], () => r(require('@/components/hello/hello')), 'hello')
+      }, {
+        path: 'demo',
+        name: 'Demo',
+        component: r => require.ensure([], () => r(require('@/components/demo/demo')), 'demo')
+      }]
     }
   ]
 })
