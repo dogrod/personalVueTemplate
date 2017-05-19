@@ -41,6 +41,10 @@ export default new Router({
 3. Run ``` npm run flow ``` command to check type
 4. You'll see ``` Found 0 errors ``` ( Impossible!!! LOL )
 
+> Use axios via ``` this.$http ``` or ``` Vue.$http ```
+
+> Use lodash via ``` this._ ``` or ``` Vue._ ```
+
 ## TO-DO
 
 - [ ] EsLint Rules Optimization ( Globally )
