@@ -1,0 +1,15 @@
+[include]
+
+[ignore]
+.*/node_modules/.*
+.*/test/.*
+.*/build/.*
+.*/config/.*
+
+[libs]
+
+[options]
+module.file_ext=.vue
+module.file_ext=.js
+
+[version]

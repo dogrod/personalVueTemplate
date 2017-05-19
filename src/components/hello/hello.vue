@@ -1,3 +1,4 @@
+/* @flow
 <template>
   <div class="hello">
     <img src="../../assets/images/logo.png">
@@ -21,8 +22,9 @@
     </ul>
   </div>
 </template>
+*/
 
-<script>
+// <script>
 export default {
   name: 'hello',
   data() {
@@ -41,15 +43,16 @@ export default {
     * @param {String} value 输入的参数
     * @return {String} 返回的值
     */
-    computed(value) {
-      return (`${value}哈哈哈`)
+    computed(value: String) {
+      return (`${value.toString()}哈哈哈`)
     }
   }
 }
-</script>
+// </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+/*
 <style lang="stylus" scoped>
+// Add scoped attribute to limit CSS to this component only
 $color = #a3a4a5;
 h1, h2 {
   font-weight: normal;
@@ -70,3 +73,4 @@ a {
   color: #42b983;
 }
 </style>
+*/
