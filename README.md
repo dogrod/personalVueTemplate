@@ -1,9 +1,11 @@
 # Personal Vue Template Edit By [dogrod](https://github.com/dogrod)
 > Vue.js 2 family bucket used Project Template.
 
+> Chinese Version [中文说明](https://github.com/dogrod/personalVueTemplate/blob/master/README_CHN.md)
+
 ## Config Router
 
-> src/Router/index.js
+> config file path: src/Router/index.js
 
 ```
 import Vue from 'vue'
