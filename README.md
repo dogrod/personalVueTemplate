@@ -1,4 +1,4 @@
-# Personal Vue Template Build By [dogrod](https://github.com/dogrod)
+# Personal Vue Template Edit By [dogrod](https://github.com/dogrod)
 > Vue.js 2 family bucket used Project Template.
 
 ## Use flow to check type for .vue file
@@ -12,8 +12,8 @@
 
 - [ ] EsLint Rules Optimization ( Globally )
 - [x] Flow Support ( Globally )
-- [ ] Separate Stylus Support from master branch ( To feature branch )
-- [ ] Jade / Pug Support ( With feature branch )
+- [ ] Separate Stylus Support from master branch ( On feature/jade-stylus branch )
+- [ ] Jade / Pug Support ( With feature/jade-stylus branch )
 
 ## Build Setup
 
