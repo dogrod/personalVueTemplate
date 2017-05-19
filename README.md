@@ -1,5 +1,11 @@
-# Vue Template Build By Rodrick Zhu
+# Personal Vue Template Build By [dogrod](https://github.com/dogrod)
 > Vue.js 2 family bucket used Project Template.
+
+## TO-DO
+
+- [ ] EsLint Rules Optimization Globally
+- [ ] Stylus Support ( with branch )
+- [ ] Jade / Pug Support ( with branch )
 
 ## Build Setup
 
@@ -26,4 +32,5 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+> This template is created by Vue-cli
+> For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
