@@ -50,7 +50,8 @@ export default new Router({
 - [ ] EsLint Rules Optimization ( Globally )
 - [x] Flow Support ( Globally )
 - [ ] Separate Stylus Support from master branch ( On feature/jade-stylus branch )
-- [x] Jade / Pug Support ( With [feature/jade-stylus branch](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus) )
+- [x] Jade / Pug Support ( On [feature/jade-stylus branch](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus) )
+- [ ] RxJS Support ( On feature/jade-stylus-RxJS branch )
 
 ## Build Setup
 
