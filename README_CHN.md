@@ -43,8 +43,9 @@ export default new Router({
 
 - [ ] EsLint 规则优化 ( 全局 )
 - [x] 支持 Flow ( 全局 )
-- [ ] Stylus 的支持从 master 分支剥离 ( 剥离至 feature/jade-stylus branch )
+- [ ] Stylus 的支持从 master 分支剥离 ( 剥离至 feature/jade-stylus 分支 )
 - [x] 支持 Jade / Pug ( 详情查看 [feature/jade-stylus 分支](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus) )
+- [ ] 支持 RxJS ( 在 feature/jade-stylus-RxJS 分支 )
 
 ## 构建步骤
 
