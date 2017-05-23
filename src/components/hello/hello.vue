@@ -48,7 +48,7 @@ export default {
     * @param {String} value 输入的参数
     * @return {String} 返回的值
     */
-    concatString(value: String) {
+    concatString(value: String):String {
       return (`${value.toString()} LOL`)
     }
   }
@@ -59,7 +59,8 @@ export default {
 // Add scoped attribute to limit CSS to this component only
 $color = #a3a4a5
 
-h1, h2
+h1,
+h2
   font-weight normal
   color $color
 

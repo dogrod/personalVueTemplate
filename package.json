@@ -14,8 +14,10 @@
     "axios": "^0.16.1",
     "eventsource-polyfill": "^0.9.6",
     "lodash": "^4.17.4",
+    "rxjs": "^5.4.0",
     "vue": "^2.2.2",
     "vue-router": "^2.2.0",
+    "vue-rx": "^3.1.1",
     "vuex": "^2.2.1"
   },
   "devDependencies": {

@@ -17,6 +17,10 @@ export default new Router({
         path: 'demo',
         name: 'Demo',
         component: r => require.ensure([], () => r(require('@/components/demo/demo')), 'demo')
+      }, {
+        path: 'rx-watch',
+        name: 'RxJS with $watch',
+        component: r => require.ensure([], () => r(require('@/components/demo/rx-watch')), 'rxwatch')
       }]
     }
   ]
