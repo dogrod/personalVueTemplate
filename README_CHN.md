@@ -46,6 +46,7 @@ export default new Router({
 - [ ] Stylus 的支持从 master 分支剥离 ( 剥离至 [feature/jade-stylus 分支](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus) )
 - [x] 支持 Jade / Pug ( 详情查看 [feature/jade-stylus 分支](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus) )
 - [x] 支持 RxJS ( 详情查看 [feature/jade-stylus-RxJS 分支](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus-rxjs) )
+- [ ] 支持 PostCSS ( 全局 )
 
 ## 构建步骤
 

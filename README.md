@@ -52,6 +52,7 @@ export default new Router({
 - [ ] Separate Stylus Support from master branch ( On [feature/jade-stylus branch](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus) )
 - [x] Jade / Pug Support ( On [feature/jade-stylus branch](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus) )
 - [x] RxJS Support ( On [feature/jade-stylus-RxJS branch](https://github.com/dogrod/personalVueTemplate/tree/feature/jade-stylus-rxjs) )
+- [ ] PostCSS Support ( Globally, include Autoprefixer & px2rem )
 
 ## Build Setup
 
